@@ -1,0 +1,25 @@
+{
+  "books": [
+    {
+      "ref": "AB2345",
+      "id": "ca66d740-e41d-4b70-aea1-a8a20759a647",
+      "name": "The Lion, the Witch and the Wardrobe",
+      "earnings": "85000000",
+      "description": ""
+    },
+    {
+      "ref": "AB3345",
+      "id": "408c6851-7b7a-439e-b6db-9fb65ea61071",
+      "name": "The Adventures of Pinocchio",
+      "earnings": "85000000",
+      "description": ""
+    },
+    {
+      "ref": "AB4345",
+      "id": "3fe92243-8444-4ee4-bb39-b5460b8919f1",
+      "name": "The Hobbit",
+      "earnings": "100000000",
+      "description": null
+    }
+  ]
+}
