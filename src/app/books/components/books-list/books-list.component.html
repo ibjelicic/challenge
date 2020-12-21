@@ -18,6 +18,9 @@
         <p>
           {{ book.earnings | currency }}
         </p>
+        <p mat-line>
+          Reference: &nbsp;{{ book.ref }}
+        </p>
         <button
           *ngIf="!readonly"
           mat-icon-button

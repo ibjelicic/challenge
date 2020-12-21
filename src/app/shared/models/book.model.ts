@@ -3,6 +3,7 @@ export interface BookModel {
   name: string;
   earnings: number;
   description?: string;
+  ref?: string;
 }
 
 export type BookRequiredProps = Pick<BookModel, "name" | "earnings">;

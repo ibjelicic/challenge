@@ -30,6 +30,15 @@
           type="text"
         />
       </mat-form-field>
+      <mat-form-field class="full-width">
+        <input
+          matInput
+          placeholder="Reference"
+          formControlName="ref"
+          type="text"
+        />
+        <mat-error *ngIf="isReferenceErrorShown">Reference is Invalid</mat-error>
+      </mat-form-field>
     </mat-card-content>
     <mat-card-actions>
       <button type="submit" [disabled]="!bookForm.valid" mat-button>Save</button>
