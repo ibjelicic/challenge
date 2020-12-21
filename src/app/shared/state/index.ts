@@ -7,7 +7,7 @@ export interface State {
 }
 
 export const reducers: ActionReducerMap<State> = {
-  books: fromBooks.reducer
+  books: fromBooks.reducer,
 };
 
 export const metaReducers: MetaReducer<State>[] = [];
@@ -18,7 +18,7 @@ export const metaReducers: MetaReducer<State>[] = [];
 export const selectBooksState = (state: State) => state.books;
 export const selectAllBooks = createSelector(
   selectBooksState,
-  fromBooks.selectAll
+  fromBooks.selectAllBooks
 );
 export const selectActiveBook = createSelector(
   selectBooksState,

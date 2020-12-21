@@ -50,5 +50,6 @@ export class BookDetailComponent {
 
   onSubmit(book: BookModel) {
     this.save.emit({ ...this.originalBook, ...book });
+    this.bookForm.reset();
   }
 }
